@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 const manifest = defineManifest({
   manifest_version: 3,
-  name: "DLsite Cliper",
+  name: "DLsite Notion Clipper",
   icons: {
     "128": "icon/icon128.png",
   },
