@@ -15,8 +15,8 @@ VITE_NOTION_API_KEY="for"
 VITE_DATABASE_ID="bar"
 ```
 
+3. Run `yarn build` and load the generated `dist` directory in the Chrome browser.
+
 ## LICENCE
 
 MIT
-
-3. Run `yarn build` and load the generated `dist` directory in the Chrome browser.
