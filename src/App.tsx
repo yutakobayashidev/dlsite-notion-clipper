@@ -26,11 +26,11 @@ function App() {
 
   useEffect(() => {
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-      const code = getRJCode(String(tabs[0].url));
+      const rjcode = getRJCode(String(tabs[0].url));
 
       const fetch = async () => {
-        if (code) {
-          const stats = await WorkData(code);
+        if (rjcode) {
+          const stats = await WorkData(rjcode);
           setWork(stats);
         }
       };
@@ -144,9 +144,9 @@ function App() {
     setIsLoading(false);
   }
 
-  async function WorkData(rjscode: string) {
+  async function WorkData(rjcode: string) {
     const response = await axios.get(
-      `https://www.dlsite.com/home/api/=/product.json?workno=${rjscode}`
+      `https://www.dlsite.com/home/api/=/product.json?workno=${rjcode}`
     );
 
     return response.data[0];
