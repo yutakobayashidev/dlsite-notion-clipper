@@ -6,7 +6,7 @@ Chrome extension to save information about DLsite's works in Notion.
 
 1. Duplicate the Notion template database from the following URL
 
-https://yutakobayashi.notion.site/DLsite-7e820481866145308159ef8ec1551fe6
+https://yutakobayashi.notion.site/1dc867cb243c4d7cb7bf8629f68d7396?v=753abc35a59348f99dfc4af419a8c4c1
 
 2. Clone the repository, create an .env file and specify the duplicated database ID and API Key.
 
