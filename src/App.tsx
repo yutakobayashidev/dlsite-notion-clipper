@@ -158,14 +158,12 @@ function App() {
       {work && (
         <>
           <h2>{work.work_name}</h2>
-          {work && (
             <img
               width={280}
               height={210}
               src={`https://img.dlsite.jp/${work.image_main.relative_url}`}
               alt={work.work_name}
             />
-          )}
           <div className="rj">RJ Code: {work.workno}</div>
         </>
       )}
