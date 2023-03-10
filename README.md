@@ -19,9 +19,9 @@ VITE_DATABASE_ID="bar"
 
 ## TODO
 
-[ ] Allow easy configuration of tokens and database settings
-[ ] Page Duplicate Check
-[ ] Display the save button in dlsite.com
+- [ ] Allow easy configuration of tokens and database settings
+- [ ] Page Duplicate Check
+- [ ] Display the save button in dlsite.com
 
 ## LICENCE
 
