@@ -17,6 +17,12 @@ VITE_DATABASE_ID="bar"
 
 3. Run `yarn build` and load the generated `dist` directory in the Chrome browser.
 
+## TODO
+
+[ ] Allow easy configuration of tokens and database settings
+[ ] Page Duplicate Check
+[ ] Display the save button in dlsite.com
+
 ## LICENCE
 
 MIT
